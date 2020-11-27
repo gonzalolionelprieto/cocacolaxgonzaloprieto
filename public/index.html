@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Coca Cola proyecto</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	
+	<section class="sec">
+		<header>
+		<a href="#"><img src="img/logo.png" alt="logo coca-cola" class="logo"></a>
+		<div class="toggleMenu" onclick="menuToggle();"></div>
+		<ul class="nav">
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Productos</a></li>
+			<li><a href="#">Noticias</a></li>
+			<li><a href="#">Contactos</a></li>
+		</ul>
+		</header>
+		<div class="contenido">
+			<div class="cajatexto">
+				<h2>Nuestro sabor <br><span>Unico</span></h2>
+				<p class="parrafo">La de siempre, original y deliciosa, la que refresca a millones de personas en todo el mundo. Fue creada en 1886 por el farmacéutico Dr. John Pemberton, siendo la bebida que desde hace más de 130 años, te acompaña de una forma especial en ciertos momentos cotidianos de tu vida.¡Sin olvidarnos de los momentos únicos! ¿Recuerdas cuando en 1985, Coca-Cola fue el primer refresco que viajó al espacio?.</p>
+				<a href="https://www.cocacoladeargentina.com.ar/content/dam/journey/ar/es/private/marcas/info-nutricional/coca-cola.jpg" target="_blank" class="info">Mas Informacion</a>
+			</div>
+			<div class="contenedor-latas">
+				<img src="img/clasica.png" class="coca-cola">
+				<ul class="iconos">
+					<li><a href="https://www.facebook.com/cocacolaar"target="_blank"><img src="img/iconos/f-b.png" alt="icono facebook"></a></li>
+					<li><a href="https://www.instagram.com/cocacolaar"target="_blank"><img src="img/iconos/i-b.png" alt="icono instagram"></a></li>
+					<li><a href="https://twitter.com/cocacolacoar " target="_blank"><img src="img/iconos/t-b.png" alt="icono twitter"></a></li>
+				</ul>
+			</div>
+
+		</div>
+		<ul class="prev">
+			<li><img src="img/clasica.png " onclick="imgSlider('img/clasica.png'); cambiarFondo('#e02b2d');cambiarParrafoCL()"  ></li>
+			<li><img src="img/zeroo.png" 	onclick="imgSlider('img/zeroo.png'); cambiarFondo('#181818');cambiarParrafoZR()" 	></li>
+			<li><img  src="img/lightt.png" 	onclick="imgSlider('img/lightt.png'); cambiarFondo('#7C7C7C');cambiarParrafoLG();"	></li>
+		</ul>
+
+		
+	</section>
+
+	<footer>
+		<h2>Creada por Gonzalo Prieto</h2><div class="linkedin"><a href="https://www.linkedin.com/in/gonzalo-lionel-prieto-0095ba198/"><img src="img/iconos/l-b.png" alt=""></a></div>
+	</footer>
+
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="/__/firebase/8.1.1/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+	<!-- Initialize Firebase -->
+	<script src="/__/firebase/init.js"></script>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
